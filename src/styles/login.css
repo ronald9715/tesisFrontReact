@@ -1,0 +1,38 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.body{
+    background: url('../img/nuevo.jpg') no-repeat;
+    
+    height: 100vh;
+    
+
+}
+.heading{
+    text-align: center;
+    padding: 48px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #16a596;
+    
+}
+.borde{
+    text-align: center;
+    border-radius: 15px;
+    width: 25%;
+    height: 48vh;
+    background:#80ced6;
+    margin: 50px auto;
+    padding: 40px;
+}
+.borde input{
+    width: 75%;
+    margin:auto;
+    
+}

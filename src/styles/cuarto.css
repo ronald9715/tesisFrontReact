@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.alma{
+    background: url('../img/loginback.jpg') fixed;
+    background-size: 100% 100%;
+    overflow: scroll;
+    
+}
+.almacen .titulo{
+    color:#16697a;
+}
+.general{
+    width: 80%;
+    margin: auto;
+}
+.subtitulo{
+    font-family:'Montserrat Alternates', sans-serif; 
+   font-size:19px;
+   margin:auto;
+  
+   color:#495464
+}
+.texto input:focus{
+    outline: none;
+}
+.texto input{
+    border: none;
+    border-bottom: solid 2px #0077A9;
+    width: 85px;
+}
+.pregunta{
+    margin-top: 35px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 21px;
+}
+.opciones{
+    width: 20%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    display: flex;
+    font-family:'Montserrat Alternates', sans-serif; 
+}

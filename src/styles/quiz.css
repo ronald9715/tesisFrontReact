@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quizv{
+    width: 100%;
+    height: 100vh;
+    background: #804180;
+}
+.centrado{
+    width: 80%;
+    margin: auto;
+   
+}
+.choice-container{
+    display: flex;
+    margin:auto;
+    margin-bottom: 10px;
+    width: 80%;
+    border-radius: 4px;
+    background: #F8EFDE;
+    font-size: 1rem;
+    min-width: 20rem;
+    font-family: 'Nova Square', cursive;
+    color: black;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: #F8EFDE;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+.choice-prefix{
+    padding: 2rem 2.5rem;
+    color: black;
+
+}
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+.almacen{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/fondo3.png') no-repeat;
+    background-size: 100% 100%;
+    
+}
+.principal{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+   
+}
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap:20px;
+    margin:150px auto;
+    
+    
+}
+.everything{
+    display: flex;
+    justify-content: space-around;
+}
+.bloque{
+    margin-top: 40px;
+}
+.question span{
+    font-size: 20px;
+    border: 3px solid hsl(43,100%,57%);
+    padding: 10px;
+    margin: auto 5px;
+    
+}
+.answer{
+    
+    margin-top: 15px;
+}
+.answer input{
+   
+    border-bottom: 1px dashed black;
+    border-radius: 5px;
+    width: 95%;
+    height: 35px;
+    position: relative;
+    margin: 15px auto;
+    left: 25px; 
+}
+.grafico{
+    position: absolute;
+    bottom: 10px;
+    right: 1px;
+}
+

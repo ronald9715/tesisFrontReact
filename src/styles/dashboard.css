@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.dashboard{
+    background: url('../img/fondo2.jpg') no-repeat;
+    background-size: 100% 100%;
+   
+    height: 100vh;
+   
+    
+}
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:  white;
+    font-weight:bold;
+    font-size: 38px;
+    text-align: center;
+    padding: 24px;
+}
+.dashboard .superior{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin: 10px;
+
+
+}
+.dashboard .superior.carta{
+    border-radius: 5px;
+    
+}
+.dashboard .inferior .carta{
+    justify-content: center;
+    align-items: center;
+    margin:25px auto;
+    
+}
+.carta{
+    width: 300px;
+    height: 250px;
+    display: block;
+    /*background-color: #618685;
+    opacity: 0.8;
+    border-radius: 10px;*/
+
+    
+}
+.contenedor {
+    
+    position: relative;
+   
+}
+.contenedor p{
+    position: absolute;
+    left: 35%;
+    top:46%;
+}
+.contenedor img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+.contenedor img:active{
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+.contenedor p{
+    font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+

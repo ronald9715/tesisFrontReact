@@ -1,0 +1,22 @@
+.interfaz{
+    background:url(../img//kid.png) ;
+    height: 100vh;
+    background-size: 100% 100%;
+    
+    overflow-y: scroll;
+    
+}
+.pool{
+    width: 45%;
+    margin: auto;
+    
+}
+ul li{
+    margin-top: 25px;
+}
+input{
+    background: transparent;
+}
+.general{
+
+}
